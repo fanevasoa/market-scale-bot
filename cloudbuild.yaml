@@ -3,8 +3,10 @@ steps:
     args:
       - functions
       - deploy
-      - process_treatment
+      - market-scale-bot
+      - --gen2
       - --source=.
+      - --entry-point=process_treatment
       - --trigger-http
       - --runtime=python39
       - --allow-unauthenticated
