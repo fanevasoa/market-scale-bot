@@ -4,7 +4,7 @@ steps:
       - functions
       - deploy
       - market-scale-bot
-      - --gen2
+      - --gen1
       - --source=.
       - --entry-point=process_treatment
       - --trigger-http
