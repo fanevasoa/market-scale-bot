@@ -10,3 +10,4 @@ steps:
       - --trigger-http
       - --runtime=python39
       - --allow-unauthenticated
+      - --region=europe-west2
